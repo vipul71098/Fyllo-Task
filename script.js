@@ -1,6 +1,6 @@
   function initMap() {
       var locations = [];
-      var arr = [];
+      
 
 	    fetch('https://api.agrihawk.in/api/devices/getMarkers?access_token=EFxkmrvH1zoctRpH7Q3X5nZhOSIj5E6lmM2wrdF4PJtOJnOdOztfQcatpBux4vck')
 	       .then(response  => {
